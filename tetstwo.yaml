@@ -6,8 +6,3 @@ metadata:
 run:
     steps:
         - echo "HELLO WORLD"
-	- ls -la /
-	- mkdir test
-	- cd test
-	- echo "helloworld" >> test.txt
-	- cat test.txt
