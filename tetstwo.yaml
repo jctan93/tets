@@ -7,4 +7,5 @@ run:
     steps:
         - echo "HELLO WORLD"
         - ls -la
+        - chmod +x test.sh
         - $(./test.sh) 
