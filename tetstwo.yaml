@@ -1,8 +1,9 @@
 metadata:
-	format: Lava-Test Test Definition 1.0
-	name: first yaml test
-	description: "First git repo yaml test"
+    format: Lava-Test Test Definition 1.0
+    name: tetstwo
+    description: "tetstwo git clone"
 
 run:
-	steps:
-		- echo "HELLO WORLD"
+    steps:
+        - echo "HELLO WORLD"
+
