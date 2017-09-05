@@ -6,3 +6,4 @@ metadata:
 run:
     steps:
         - echo "HELLO WORLD"
+        - ls -la  
