@@ -4,7 +4,7 @@
 if [ $? -eq 0 ]; then
 	#lava-test-case helloworld-create --result pass
 #else
-#	lava-test-case helloworld-create --result fail
+	lava-test-case helloworld-create --result fail
 fi
 
 #helloworldcat=$(cat test.txt)
