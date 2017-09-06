@@ -8,11 +8,15 @@
 #cat test.txt
 #cd $abc
 
-echo "HELLOWORLD" > test.txt
+echo  "HELLOWORLD" > test.txt
 if [ $? -eq 0 ]; then
-	lava-test-case helloworld-create --result pass
+	echo "WORKS!"
 fi
 helloworldcat=$(cat test.txt)
-if [ "$helloworldcat" == 'HELLOWORLD' ]; then
-	lava-test-case helloworld-cat --result pass
+if [ "$helloworldcat" == "HELLOWORLD" ]; then
+	echo "TWO WORKS"
+else
+	echo "TWO DOESN'T WORK"
+	echo "$helloworldcat"
 fi
+
