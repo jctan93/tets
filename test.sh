@@ -7,9 +7,9 @@ else
 	lava-test-case helloworld-create --result fail
 fi
 
-helloworldcat=$(cat test.txt)
-if [ "$helloworldcat" == 'HELLOWORLD' ]; then
-	lava-test-case helloworld-cat --result pass
-else
-	lava-test-case helloworld-cat --result fail
-fi
+#helloworldcat=$(cat test.txt)
+#if [ "$helloworldcat" == 'HELLOWORLD' ]; then
+#	lava-test-case helloworld-cat --result pass
+#else
+#	lava-test-case helloworld-cat --result fail
+#fi
