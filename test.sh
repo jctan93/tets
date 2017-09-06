@@ -1,12 +1,12 @@
 #!/bin/bash
-:'
-echo "HELLOWORLD" > test.txt
-if [ $? -eq 0 ]; then
-	lava-test-case helloworld-create --result pass
-else
-	lava-test-case helloworld-create --result fail
-fi
-'
+
+#echo "HELLOWORLD" > test.txt
+#if [ $? -eq 0 ]; then
+#	lava-test-case helloworld-create --result pass
+#else
+#	lava-test-case helloworld-create --result fail
+#fi
+
 lava-test-case test-test --result pass
 
 #helloworldcat=$(cat test.txt)
