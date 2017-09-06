@@ -6,6 +6,7 @@ metadata:
 run:
     steps:
         - echo "HELLO WORLD"
+        - pwd
         - ls -la
         - chmod +x test.sh
         - $(./test.sh) 
