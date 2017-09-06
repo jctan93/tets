@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo "HELLOWORLD" > test.txt
+#echo "HELLOWORLD" > test.txt
 if [ $? -eq 0 ]; then
 	lava-test-case helloworld-create --result pass
 #else
