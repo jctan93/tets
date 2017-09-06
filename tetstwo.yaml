@@ -11,4 +11,4 @@ run:
         - chmod +x test.sh
         - cat run.sh
         - lava-test-case random-test --result pass
-        - bash test.sh  
+        - ./test.sh  
