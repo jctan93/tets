@@ -9,4 +9,5 @@ run:
         - pwd
         - ls -la
         - chmod +x test.sh
+        - cat run.sh
         - $(./test.sh) 
