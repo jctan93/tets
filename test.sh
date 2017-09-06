@@ -1,17 +1,17 @@
 #!/bin/bash
 
-#echo "HELLOWORLD" > test.txt
-#if [ $? -eq 0 ]; then
-#	lava-test-case helloworld-create --result pass
-#else
-#	lava-test-case helloworld-create --result fail
-#fi
+echo "HELLOWORLD" > test.txt
+if [ $? -eq 0 ]; then
+	lava-test-case helloworld-create --result pass
+else
+	lava-test-case helloworld-create --result fail
+fi
 
-lava-test-case random-test --result pass
+#lava-test-case random-test --result pass
 
-#helloworldcat=$(cat test.txt)
-#if [ "$helloworldcat" == 'HELLOWORLD' ]; then
-#	lava-test-case helloworld-cat --result pass
-#else
-#	lava-test-case helloworld-cat --result fail
-#fi
+helloworldcat=$(cat test.txt)
+if [ "$helloworldcat" == 'HELLOWORLD' ]; then
+	lava-test-case helloworld-cat --result pass
+else
+	lava-test-case helloworld-cat --result fail
+fi
