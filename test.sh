@@ -7,7 +7,7 @@
 #	lava-test-case helloworld-create --result fail
 #fi
 
-lava-test-case test-test --result pass
+lava-test-case random-test --result pass
 
 #helloworldcat=$(cat test.txt)
 #if [ "$helloworldcat" == 'HELLOWORLD' ]; then
