@@ -9,5 +9,4 @@ run:
         - pwd
         - ls -la
         - chmod +x test.sh
-        - cat run.sh
-        - lava-test-case random-test --result pass 
+        - cat run.sh        
