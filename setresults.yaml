@@ -1,0 +1,9 @@
+metadata:
+    format: Lava-Test Test Definition 1.0
+    name: tetstwo
+    description: "tetstwo git clone"
+
+run:
+    steps:
+        - lava-test-case test5 --result pass
+        - lava-test-case test6 --result fail         
