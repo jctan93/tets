@@ -43,3 +43,11 @@ if [ $? -eq 0 ]; then
 else
 	lava-test-case movefile-test --result fail
 fi
+
+echo 'Acquire::http::Proxy "http://proxy-png.intel.com:911";' > /etc/apt/apt.conf
+if [ $? -eq 0 ]; then
+	lava-test-case acquire-proxy --result pass
+else
+	lava-test-case acquire-proxy --result fail
+fi
+
