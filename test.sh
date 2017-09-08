@@ -29,3 +29,17 @@ if [ $? -eq 0 ]; then
 else
 	lava-test-case ls-la-usr-bin --result fail
 fi
+
+mkdir createfolder
+if [ $? -eq 0 ]; then
+	lava-test-case mkdir-test --result pass
+else
+	lava-test-case mkdir-test --result fail
+fi
+
+mv test.txt createfolder
+if [ $? -eq 0]; then
+	lava-test-case movefile-test --result pass
+else
+	lava-test-case movefile-test --result fail
+fi
