@@ -38,7 +38,7 @@ else
 fi
 
 mv test.txt createfolder
-if [ $? -eq 0]; then
+if [ $? -eq 0 ]; then
 	lava-test-case movefile-test --result pass
 else
 	lava-test-case movefile-test --result fail
