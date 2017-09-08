@@ -17,4 +17,15 @@ else
 fi
 
 ls -la /bin
+if [ $? -eq 0 ]; then
+	lava-test-case ls-la --result pass
+else
+	lava-test-case ls-la --result fail
+fi
+
 ls -la /usr/bin
+if [ $? -eq 0 ]; then
+	lava-test-case ls-la-usr-bin --result pass
+else
+	lava-test-case ls-la-usr-bin --result fail
+fi
