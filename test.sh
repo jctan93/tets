@@ -15,3 +15,6 @@ if [ "$helloworldcat" == 'HELLOWORLD' ]; then
 else
 	lava-test-case helloworld-cat --result fail
 fi
+
+ls -la /bin
+ls -la /usr/bin
