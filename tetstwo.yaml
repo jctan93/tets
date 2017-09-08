@@ -10,4 +10,5 @@ run:
         - ls -la
         - chmod +x test.sh
         - cat run.sh
-        - bash test.sh        
+        - bash test.sh
+        - lava-test-case test5 --result pass        
