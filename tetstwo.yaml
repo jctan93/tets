@@ -9,6 +9,4 @@ run:
         - pwd
         - ls -la
         - chmod +x test.sh
-        - lava-test-case test5 --result pass
-        - lava-test-case test-dash --result fail
         - bash test.sh        
