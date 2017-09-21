@@ -8,8 +8,8 @@ set -x
 #else
 #	lava-test-case acquire-proxy --result fail
 #fi
-gcc -s -Wall -Wstrict-prototypes rtctest.c -o rtctest
-gcc -s -Wall -Wstrict-prototypes rtc_cmos_test.c -o rtc_cmos_test
+gcc -s -Wall -Wstrict-prototypes rtc/rtctest.c -o rtctest
+gcc -s -Wall -Wstrict-prototypes rtc/rtc_cmos_test.c -o rtc_cmos_test
 
 ./rtctest
 ./rtc_cmos_test
