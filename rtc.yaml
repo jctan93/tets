@@ -1,0 +1,8 @@
+metadata:
+    format: Lava-Test Test Definition 1.0
+    name: rtc_test 
+    description: "test compiling and running rtc"
+
+run:
+    steps:
+        - bash rtc.sh       
