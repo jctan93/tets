@@ -13,3 +13,5 @@ gcc -s -Wall -Wstrict-prototypes rtc/rtc_cmos_test.c -o rtc_cmos_test
 
 ./rtctest
 ./rtc_cmos_test
+
+python gui_startup.py
